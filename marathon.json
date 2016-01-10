@@ -25,7 +25,7 @@
         { "key": "volume", "value": "sys-bitbucket:/var/atlassian/application-data/bitbucket" },
         { "key": "security-opt", "value": "label:disable" }
       ],
-      "forcePullImage": true
+      "forcePullImage": false
     }
   },
   "healthChecks": [
