@@ -21,9 +21,8 @@
       ],
       "privileged": false,
       "parameters": [
-        { "key": "volume-driver", "value": "rbd" },
-        { "key": "volume", "value": "sys-bitbucket:/var/atlassian/application-data/bitbucket" },
-        { "key": "security-opt", "value": "label:disable" }
+        { "key": "volume-driver", "value": "rexray" },
+        { "key": "volume", "value": "sys-bitbucket:/var/atlassian/application-data/bitbucket" }
       ],
       "forcePullImage": false
     }
