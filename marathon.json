@@ -13,13 +13,6 @@
   },
   "container": {
     "type": "DOCKER",
-    "volumes": [
-      {
-        "hostPath": "sys-bitbucket",
-        "containerPath": "/var/atlassian/application-data/bitbucket",
-        "mode": "RW"
-      }
-    ],
     "docker": {
       "image": "h0tbird/bitbucket:v4.5.2-1",
       "network": "BRIDGE",
@@ -28,7 +21,8 @@
       ],
       "privileged": false,
       "parameters": [
-        { "key": "volume-driver", "value": "rexray" }
+        { "key": "volume-driver", "value": "rexray" },
+        { "key": "volume", "value": "sys-bitbucket:/var/atlassian/application-data/bitbucket:rw" }
       ],
       "forcePullImage": false
     }
