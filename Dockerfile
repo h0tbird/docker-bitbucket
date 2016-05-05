@@ -11,7 +11,7 @@ MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 
 ENV BITBUCKET_HOME="/var/atlassian/application-data/bitbucket" \
     BITBUCKET_INSTALL_DIR="/opt/atlassian/bitbucket" \
-    BITBUCKET_VERSION="4.2.0"
+    BITBUCKET_VERSION="4.5.2"
 
 ENV DOWNLOAD_URL="https://downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-${BITBUCKET_VERSION}.tar.gz"
 
