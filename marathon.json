@@ -22,7 +22,7 @@
       "privileged": false,
       "parameters": [
         { "key": "volume-driver", "value": "rexray" },
-        { "key": "volume", "value": "sys-bitbucket:/var/atlassian/application-data/bitbucket:rw" }
+        { "key": "volume", "value": "cell-1_dub-sys-bitbucket:/var/atlassian/application-data/bitbucket:rw" }
       ],
       "forcePullImage": false
     }
