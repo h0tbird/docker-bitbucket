@@ -1,7 +1,7 @@
 {
   "id": "/sys/bitbucket",
   "instances": 1,
-  "cpus": 1,
+  "cpus": 0.2,
   "mem": 2048,
   "disk": 0,
   "requirePorts": false,
