@@ -1,6 +1,6 @@
-# docker-bitbucket
+# bitbucket
 
-[![Build Status](https://travis-ci.org/h0tbird/docker-bitbucket.svg?branch=master)](https://travis-ci.org/h0tbird/docker-bitbucket)
+[![Build Status](https://travis-ci.org/katosys/bitbucket.svg?branch=master)](https://travis-ci.org/katosys/bitbucket)
 
 Containerized Bitbucket server.
 
@@ -8,5 +8,5 @@ Containerized Bitbucket server.
 docker run -it --rm \
 --volume /data/bitbucket:/var/atlassian/application-data/bitbucket \
 --publish 80:80 \
-h0tbird/bitbucket
+quay.io/kato/bitbucket:latest
 ```
